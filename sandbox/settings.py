@@ -25,7 +25,7 @@ SECRET_KEY = '!7uca7@dq*mj=yt+tj0mphy5uqmn*&3zn)=&vro+19v(7^wo3='
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['kell18.pythonanywhere.com']
 
 
 # Application definition
