@@ -1,0 +1,12 @@
+
+## IDE
+.idea/*
+.vscode/*
+
+
+## Python
+*.pyc
+__pycache__
+djenv
+db.sqlite3
+.DS_Store
