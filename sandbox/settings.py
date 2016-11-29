@@ -22,22 +22,24 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = '!7uca7@dq*mj=yt+tj0mphy5uqmn*&3zn)=&vro+19v(7^wo3='
 
+LOGIN_URL = '/user/login' # todo: accounts
+LOGIN_REDIRECT_URL = '/'
+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
 ALLOWED_HOSTS = ['kell18.pythonanywhere.com']
 
-
 # Application definition
 
 INSTALLED_APPS = (
+    'metaord',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'metaord',
 )
 
 MIDDLEWARE_CLASSES = (
